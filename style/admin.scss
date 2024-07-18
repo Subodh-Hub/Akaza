@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box ;
+    border-radius: 2vw;
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display: flex;
+   
+    .admin{
+        border:solid 1px;
+        outline:none;
+        background-color: rgba(206, 216, 216, 0);
+        display: flex;
+        height:49%;
+        width:26vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding:1vw;
+
+        img{
+            margin-top:2vw;
+            width:6vw;
+            border-radius: 2.7vw;
+            padding:0;
+            margin-bottom: 0.5vw;
+        }
+
+        .admin1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 2vw;
+            
+
+            h2{
+                font-size: 1.5vw;
+                color:#4a3a62;
+                width:100%;
+                
+            }
+
+            p{
+                font-size: 1.2vw;
+                color: #333535;
+            }
+        }
+
+        .admin2{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width:80%;
+            margin-bottom: 1vw;
+
+            img{
+                width:12%;
+            }
+
+            input{
+                text-align: center;
+                background-color: transparent;
+                width:80%;
+                height:1vw;
+                border:none;
+                border-bottom: solid 1px rgb(145, 130, 130);
+                outline:none;
+            }
+        }
+
+        .admin3{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width:80%;
+            margin-bottom: 1vw;
+
+            img{
+                width:12%;
+            }
+
+            input{
+                text-align: center;
+                background-color: transparent;
+                width:80%;
+                height:1vw;
+                border:none;
+                border-bottom: solid 1px rgb(145, 130, 130);
+                outline:none;
+            }
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:10vw;
+            height:3vw;
+            font-size: 1.3vw;
+            font-weight: 600;
+            color:#b9c2c4;
+            background-color: #5a2e98;
+            border-radius: 2vw;
+            margin-bottom: 2vw;
+        }
+
+    }
+}
